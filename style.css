@@ -1,0 +1,165 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/*coloquei a fonte*/
+body{
+	font-family: sans-serif;
+}
+/*conf. da nav-bar*/
+#nav-bar{
+ position: sticky;
+ top: 0;
+ z-index: 10;
+}
+
+/*cor e tamanho*/
+.navbar{
+	background-image: linear-gradient(to right,  #5858FA, #B40486);
+	padding: 0 !important;
+}
+
+/*logo*/
+.navbar-brand img{
+	height: 40px;
+	padding-left: 20px;
+}
+
+/*palavras da nav-bar*/
+.navbar-nav li{
+	padding: 0 10px;
+}
+
+.navbar-nav li a {
+	color:#fff !important;
+	font-weight: 600;
+	/*para mobile/se posicionar do lado direito*/
+	float: right;
+	text-align: left;
+}
+
+.fa-bars{
+	color: #fff;
+	font-size: 30px!important;
+}
+
+.navbar-toggler{
+	outline: none;
+}
+
+/*seção do banner*/ /*cor, fundo...*/
+#banner{
+	
+	color: #fff;
+	background-image: linear-gradient(to right,  #5858FA, #B40486);
+	padding-top: 5%;
+	text-align: center;
+}
+
+.titulo{
+	font-size: 40px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+
+.bottom-img{
+	width: 100%;
+}
+
+/* seção dos serviços*/
+#service{
+	padding: 80px 0;
+
+}
+
+.service-img{
+	width: 100px;
+	margin-top: 20px;
+	justify-content: space-between;
+
+}
+
+.service{
+	padding: 20px;
+}
+
+.service h4{
+	padding: 5px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+/*--------seção sobre nós-------*/
+
+#about-us{
+	background: #f8f9fa;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#about-us ul li{
+	margin: 10px 0;
+}
+
+/*--------seção contato----*/
+#social-media{
+	background: #f8f9fa;
+	padding: 100px 0;
+}
+
+#social-media p{
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.social-icons img{
+	width: 60px;
+	transition: 0.5s;
+
+}
+/*--- isso faz as imagens subirem--*/
+.social-icons a:hover img{
+	transform: translateY(-10px);
+}
+
+
+/*----------footer-------*/
+
+#footer{
+background-image: linear-gradient(to right, #5858FA, #B40486);
+color: #fff;
+
+}
+
+.footer-img{
+	width: 100%
+}
+
+.footer-box{
+	padding: 20px;
+
+}
+
+.footer-box img{
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+/*carrossel/comentarios*/
+.carousel-inner{
+background-image: linear-gradient(to right,  #5858FA, #B40486);
+}
+.carousel-inner img {
+    width:750px;
+    height:500px;
+    justify-content: flex-start;
+    margin-left:280px;
+
+}
+
