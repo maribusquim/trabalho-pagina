@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!--nome disponível na aba-->
+	<title>Website</title>
+	<!--link pra conectar com o css-->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!--link para conectar com o bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<!--seção para a nav-bar-->
+<section id="nav-bar">
+<nav class="navbar navbar-expand-lg navbar-light">
+	<!--imagem da logo-->
+  	<a class="navbar-brand" href="#"><img src="logo2.png"></a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+   	<i class="fa fa-bars"></i>
+  	</button>
+  	<!--botões da nav-bar-->
+  	<div class="collapse navbar-collapse" id="navbarNav">
+   	 <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#top">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#service">SERVIÇOS</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#demo">COMENTÁRIOS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about-us">SOBRE NÓS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#footer">CONTATO</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</section>
+
+<!------seção do banner------->
+<section id="banner">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-6">
+	<p class="titulo">A MELHOR AGÊNCIA DIGITAL</p>
+	<p>Acesse nossos canal no Youtube e assista vários vídeos sobre desenvolvimento, Marketing Digital e Designers.</p>
+	</div>
+	<!--imagem do começo-->
+	<div class="col-md-6">
+		<img src="desenho1.png">
+	</div>
+	</div>
+	</div>
+	<!--imagem da "onda"-->
+	<img src="wave1.png" class="bottom-img">
+	</section>
+
+
+<!------seção dos serviços-------->
+<section id="service">
+	<div class="container">
+		<h2 class="title text-center"> QUAIS SÃO OS NOSSOS SERVIÇOS?</h2>
+	<!--centralizando tudo dessa div-->
+	<div class="row text-center">
+	<div class="col-md-4 service">
+		<!--imagem acima do texto-->
+		<img src="logonovo3.png" class="service-img">
+		<!--título-->
+		<h4>Growth Marketing</h4>
+		<!--abaixo do titulo/breve explicação-->
+		<p>Estratégia de crescimento que está revolucionando a gestão de vendas, aquisição e retenção de clientes.</p>
+	</div>
+	<div class="col-md-4 service">
+		<!--imagem acima do texto-->
+		<img src="logonovo.png" class="service-img">
+		<!--título-->
+		<h4>Branding</h4>
+		<!--abaixo do titulo/breve explicação-->
+		<p>Estratégia de gestão da marca que visa torná-la mais reconhecida pelo seu público no mercado.</p>
+	</div>
+	<div class="col-md-4 service">
+		<!--imagem acima do texto-->
+		<img src="logonovo2.png" class="service-img">
+		<!--título-->
+		<h4>Anúncios Animados</h4>
+		<!--abaixo do titulo/breve explicação-->
+		<p>Dê movimentos ao seus anúncios, chamando mais a atenção do público.</p>
+	</div>
+	</div>
+	</div>
+</section>
+
+<!------carrossel------->
+<h2 class="title text-center"> COMENTÁRIOS DE CLIENTES</h2>
+<br>
+<br>
+<br>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    	<!--coloquei as imagens e tamanho-->
+      <img src="girl.jpg" alt="Anne" width="640" height="426">
+      <div class="carousel-caption">
+      	<!--Nome das pessoas e o comentário abaixo-->
+        <h2>Anne</h2>
+        <h5> "Recomendo para todos!"</h5>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="homem2.jpg" alt="Luiz" width="600" height="426">
+      <div class="carousel-caption">
+        <h2>Luiz Felipe</h2>
+        <h5>"Trabalho incrível!"</h5>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="mulherr.jpg" alt="New York" width="640" height="426">
+      <div class="carousel-caption">
+        <h2>Amanda</h2>
+        <h5>"Não tenho reclamações, só elogios."</h5>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+
+<!---------- seção sobre "sobre nós"---------->
+<section id="about-us">
+	<div class="container">
+		<h1 class="title text-center"> POR QUE NOS ESCOLHER?</h1>
+		<br>
+	<div class="row">
+	<div class="col-md-6">
+		<!--Titulo da seção-->
+		<h4>Porque somos diferentes!</h4>
+		<br>
+		<br>
+		<!--tópicos-->
+		<ul>
+			<li>Trabalho com eficiência</li>
+			<br>
+			<li>Honestidade</li>
+			<br>
+			<li>Qualidade</li>
+			<br>
+			<li>Responsabilidade</li>
+			<br>
+			<li>Originalidade</li>
+		</ul>
+	</div>
+	<div class="col-md-6">
+<!--imagem do lado dos tópicos-->
+		<img src="network.png" class="img-fluid">
+	</div>
+	</div>
+</section>
+
+
+
+<!--------seção contato--------->
+<section id="social-media">
+<div class="container text-center">
+<p>SIGA NOSSAS REDES SOCIAIS</p>
+	<div class="social-icons">
+		<!--imagens das logos-->
+		<a href="https://www.facebook.com/"><img src="facebook-icon.png"></a>
+		<a href="https://www.instagram.com/"><img src="instagram-icon.png"></a>
+		<a href="https://twitter.com/login?lang=pt"><img src="twitter-icon.png"></a>
+		<a href="https://www.whatsapp.com/?lang=pt_br"><img src="whatsapp-icon.png"></a>
+		<a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><img src="snapchat-icon.png"></a>
+	</div>
+</div>
+</section>
+
+<!-------seção footer/final da pag------>
+<section id="footer">
+<img src="wave2.png" class="footer-img">
+<div class="container">
+	<div class="row">
+		<div class="col-md-4 footer-box">
+			<img src="logo2.png">
+			<p>Acesse nossos canal no Youtube e assista vários vídeos sobre desenvolvimento, Marketing Digital e Designers. Press the bell icon to get notifiactions</p>
+		</div>
+		<!-- contatos e email-->
+<div class="col-md-4 footer-box">
+	<p><b></b>CONTATO</body></p>
+	<P>Planeta Terra, Brasil</P>
+	<P>+11 (01)32459867</P>
+	<P>mbtec@gmail.com</P>
+</div>
+</div>
+</div>
+</section>
+
+<!--------smooth scroll------>
+<script src="smooth-scroll.js"></script>
+
+<!--ir nas seções pela nav-bar-->
+<script> 
+	var scroll= new  SmoothScroll ( 'a [href * = "#"]' ) ; 
+</script>
+</body>
+</html>
